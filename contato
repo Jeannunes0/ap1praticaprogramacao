@@ -1,0 +1,75 @@
+<html>
+	<head>
+	<title>Fale conosco</title>
+	<meta charset="utf-8">
+		<title>Sobre</title>
+		<style>
+			body{
+			
+			
+				margin: 0;
+				background-image: url("fundo2.jpg");
+				background-repeat: no re-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+			}
+		
+			#menu ul{
+				margin: 0;
+				list-style: none;
+				text-align:center;
+			}
+			
+			#menu ul li{
+				display: inline;
+			}
+			
+			#menu ul li a{
+				padding: 15px 30px;
+				display: inline-block;
+				color: Black;
+				text-decoration:none;
+				font-size: 23px;
+			}
+			#menu ul li a:hover{
+				color:red;
+				}
+				
+	
+		</style>
+	</head>
+	
+	<body:
+		<div id= "menu">
+			<ul>
+				<li><a href = "principal.html">Inicio</a></li>
+				<li><a href = "aboutme.html">Sobre</a></li>
+				<li><a href = "formulario.html">contato</a></li>
+			</ul>
+		</div>
+		<h1><p align= "center">Fale Conosco</p></h1>
+
+<html lang="pt-br">
+
+
+<body>
+
+<from name ="cadastro" action="processa.php" method="post" accept-charset="utf-8">
+<br><br><br><br><br><br><br>
+
+Nome: <input type="text" name="nome" size="40" placeholder="Digite seu primeiro nome"><br>
+<br>
+sobrenome: <input type="text" name="sobrenome" size="40" placeholder="Digite seu segundo nome"><br>
+<br>
+Email: <input type="text" name="email" size="40" placeholder="Digite seu email aqui"/></br>
+<br>
+Endereço: <input type="text" name="endereço" size="60" placeholder="Digite seu endereço aqui" /><br>
+<br>
+Digite sua mensagem: <input type="text" name="mensagem" size="100" placeholder="Digite sua senha aqui" required><br>
+<br>
+<input type="submit" value="Enviar" />
+
+</body>
+
+</html>
