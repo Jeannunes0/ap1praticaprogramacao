@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Sobre</title>
+		<meta charset="utf-8">
+		<style>
+			body{
+			
+			
+				margin: 0;
+				background-image: url("fundo3.jpg");
+				background-repeat: no re-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+			}
+		
+			#menu ul{
+				margin: 0;
+				list-style: none;
+				text-align:center;
+			}
+			
+			#menu ul li{
+				display: inline;
+			}
+			
+			#menu ul li a{
+				padding: 15px 30px;
+				display: inline-block;
+				color: Black;
+				text-decoration:none;
+				font-size: 23px;
+			}
+			#menu ul li a:hover{
+				color:red;
+				}
+				
+	
+		</style>
+		
+	</head>
+	
+	<body:
+		<div id= "menu">
+			<ul>
+				<li><a href = "principal.html">Inicio</a></li>
+				<li><a href = "aboutme.html">Sobre</a></li>
+				<li><a href = "formulario.html">contato</a></li>
+			</ul>
+		</div>
+		<h1><p align= "center">Sobre Mim</p></h1>
+		<br><br><br><br><br><br><br><br>
+		<table width="99%">
+			<th align="justify"><img src="2.jpg"></th>
+			<th align="justify">Me chamo Felipe, tenho 27 anos, moro em guarulhos <br>SP. profissional responsável por analisar, administrar sistemas computacionais e por criar sistemas próprios para empresas, baseado em suas necessidades. Ele é responsável pelas análises,  projetos de sistemas, levantamentos de requisitos e regras de negócio<br><br><br><br>.</th>
+			<th align="justify"><img src="1.jpg"></th>
+			<th align="justify"> Estamos abrindo um curso online para ensinar programação e vamos oferecer uma promoção para o lançamento do curso, todos os usuarios que comprarem o curso no lançamento irão receber um material em casa para acompanhamento dos estudos abordados nas aulas online. As aulas irão ocorrer diariamente <br><br> <a href="formulario.html"><img src="contato2.png"></a></th>
+			<th align="justify"><img src="3.jpg"></th>
+		</table>
+	</body>
+</html>
