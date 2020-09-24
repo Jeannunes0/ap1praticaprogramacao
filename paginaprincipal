@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Menu html+css</title>
+		<style>
+			body{
+			
+			
+				margin: 0;
+				background-image: url("fundo.jpg");
+				background-repeat: no re-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+			}
+		
+			#menu ul{
+				margin: 0;
+				list-style: none;
+				text-align:center;
+			}
+			
+			#menu ul li{
+				display: inline;
+			}
+			
+			#menu ul li a{
+				padding: 15px 30px;
+				display: inline-block;
+				color: Black;
+				text-decoration:none;
+				font-size: 23px;
+			}
+			#menu ul li a:hover{
+				color:white;
+				}
+	
+		</style>
+	</head>
+	
+	<body:
+		<div id= "menu">
+			<ul>
+				<li><a href = "principal.html">Inicio</a></li>
+				<li><a href = "aboutme.html">Sobre</a></li>
+				<li><a href = "formulario.html">contato</a></li>
+			</ul>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<h1><p align="center">Eu sou o Felipe</p></h1>
+		<h3><p align="center">Tenho 27 anos e trabalho de analista de sistemas</p></h3>
+	</body>
+</html>
